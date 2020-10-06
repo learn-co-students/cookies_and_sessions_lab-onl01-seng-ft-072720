@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
   
     def add
       cart << params[:product]
-      byebug
+    #  byebug
       render :index
     end
 
